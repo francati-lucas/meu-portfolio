@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="icon" type="image/x-icon" href="lucas-icon.ico">
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">Home</a>
+            <nav class="nav-links">
+                <a href="https://www.linkedin.com/in/lucas-francati-de-godoy-15698a1b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="nav-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/francati-lucas" target="_blank" class="nav-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="nav-icon" onclick="openCV(); return false;">
+                    <i class="fas fa-file-alt"></i>
+                </a>
+                <span class="divider">|</span>
+                <a href="#" class="nav-icon" onclick="toggleLanguage(); return false;">
+                    <i class="fas fa-language"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="about-section">
+            <div class="about-image">
+                <img src="lucas.jpeg" alt="Foto de Lucas">
+            </div>
+            <div class="about-content">
+                <h1>Sobre mim</h1>
+                <p>Prazer, meu nome é Lucas e atualmente tenho 22 anos. Com apenas 15 anos comecei aprendendo Front-End, me apaixonei por criar soluções e resolver problemas. Logo quando aprendi minha primeira linguagem de programação, me dediquei a evoluir cada vez mais em desenvolvimento Web.</p>
+                <p>Atualmente estou cursando tecnólogo em Análise e Desenvolvimento de Sistemas, além de estar me especializando cada vez mais como desenvolvedor de páginas da web e estar sempre buscando aprender mais.</p>
+            </div>
+        </div>
+        <a href="#tools" class="scroll-arrow">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </div>
+
+    <section id="tools" class="tools-section">
+        <div class="tools-container">
+            <h2>Principais Tecnologias</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Linguagem de marcação para estruturar e apresentar conteúdo na web, fundamental para o desenvolvimento front-end.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="fab fa-css3-alt"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Linguagem de estilização que permite criar layouts responsivos e designs modernos para websites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="fab fa-js"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Linguagem de programação versátil que permite criar interatividade e dinamismo em aplicações web.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="fab fa-node-js"></i>
+                            <h3>Node.js</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Ambiente de execução JavaScript server-side que permite criar aplicações escaláveis e de alta performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="fab fa-react"></i>
+                            <h3>React</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Biblioteca JavaScript para construção de interfaces de usuário modernas e reativas com componentes reutilizáveis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="devicon-typescript-plain"></i>
+                            <h3>TypeScript</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Superset do JavaScript que adiciona tipagem estática e recursos avançados para desenvolvimento mais seguro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tools-container tools-container-secondary">
+            <h2>Principais Ferramentas</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="devicon-vscode-plain"></i>
+                            <h3>VS Code</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Editor de código altamente personalizável com recursos avançados para desenvolvimento eficiente e produtivo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="fas fa-terminal"></i>
+                            <h3>Cursor</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Editor de código inteligente com IA integrada, oferecendo sugestões avançadas e melhorando a produtividade no desenvolvimento.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-card-inner">
+                        <div class="tool-card-front">
+                            <i class="devicon-figma-plain"></i>
+                            <h3>Figma</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Ferramenta de design colaborativo para criar interfaces modernas e prototipagem de alta fidelidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h2>Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="card-fast.png" alt="Fast Auto Socorro">
+                    </div>
+                    <div class="project-info">
+                        <h3>Fast Auto Socorro</h3>
+                        <p>Site institucional desenvolvido para empresa de guincho, com design responsivo e moderno. Desenvolvido com HTML, CSS e JavaScript, focando em uma experiência de usuário intuitiva e acessível.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/francati-lucas/Fast-Auto-Socorro.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="https://fastautosocorro.com.br" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Você pode duplicar este card para cada projeto -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Contato</h2>
+            <div class="contact-grid">
+                <a href="tel:+5519981807569" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Celular</h3>
+                        <p>(19) 98180-7569</p>
+                    </div>
+                </a>
+
+                <a href="mailto:franca.lucasnegocios@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>E-mail</h3>
+                        <p>franca.lucasnegocios@gmail.com</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/lucas-francati-de-godoy-15698a1b0" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>Lucas Francati</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/francati-lucas" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <p>francati-lucas</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="translations.js"></script>
+    <script>
+        document.querySelector('.scroll-arrow').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#tools').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+
+        // Função para abrir o CV
+        function openCV() {
+            document.getElementById('cvModal').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Função para fechar o CV
+        function closeCV() {
+            document.getElementById('cvModal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Fechar modal ao clicar fora
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('cvModal')) {
+                closeCV();
+            }
+        }
+
+        let currentLang = 'pt';
+
+        function toggleLanguage() {
+            currentLang = currentLang === 'pt' ? 'en' : 'pt';
+            updateContent();
+        }
+
+        function updateContent() {
+            // Atualiza os textos da página
+            document.querySelector('.about-content h1').textContent = translations[currentLang].about;
+            document.querySelector('.about-content p:first-of-type').textContent = translations[currentLang].intro;
+            document.querySelector('.about-content p:last-of-type').textContent = translations[currentLang].current;
+            document.querySelector('.tools-container h2').textContent = translations[currentLang].mainTech;
+            document.querySelector('.tools-container-secondary h2').textContent = translations[currentLang].mainTools;
+            document.querySelector('.projects-container h2').textContent = translations[currentLang].projects;
+            document.querySelector('.project-info p').textContent = translations[currentLang].projectFastDesc;
+            
+            // Atualizar descrições das tecnologias
+            document.querySelector('.tool-card:nth-child(1) .tool-card-back p').textContent = translations[currentLang].htmlDesc;
+            document.querySelector('.tool-card:nth-child(2) .tool-card-back p').textContent = translations[currentLang].cssDesc;
+            document.querySelector('.tool-card:nth-child(3) .tool-card-back p').textContent = translations[currentLang].jsDesc;
+            document.querySelector('.tool-card:nth-child(4) .tool-card-back p').textContent = translations[currentLang].nodeDesc;
+            document.querySelector('.tool-card:nth-child(5) .tool-card-back p').textContent = translations[currentLang].reactDesc;
+            document.querySelector('.tool-card:nth-child(6) .tool-card-back p').textContent = translations[currentLang].tsDesc;
+            
+            // Atualizar descrições das ferramentas
+            const toolsSection = document.querySelector('.tools-container-secondary');
+            toolsSection.querySelector('.tool-card:nth-child(1) .tool-card-back p').textContent = translations[currentLang].vscodeDesc;
+            toolsSection.querySelector('.tool-card:nth-child(2) .tool-card-back p').textContent = translations[currentLang].cursorDesc;
+            toolsSection.querySelector('.tool-card:nth-child(3) .tool-card-back p').textContent = translations[currentLang].figmaDesc;
+        }
+    </script>
+
+    <!-- Modal do CV -->
+    <div id="cvModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeCV()">&times;</span>
+            <iframe src="curriculo.pdf"></iframe>
+        </div>
+    </div>
+</body>
+</html> 
